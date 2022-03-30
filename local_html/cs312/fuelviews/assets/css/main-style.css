@@ -44,7 +44,25 @@ header{
 }
 #aboutPics img{
     width: 250px;
+
 }
+#aboutPics p{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+
+}
+#aboutPics div{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+#aboutPics{
+    text-align: center;
+}
+
+
+
 
 /* Navigation */
 nav ul{
