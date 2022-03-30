@@ -60,10 +60,27 @@ class Controller_M1 extends Controller
     public function action_colorcordinator()
 	{
 		$this->template->title = 'Color Coordinator';
-		$this->template->content =  View::forge('m1/colorCoordinator');
+		$this->template->content =  Response::forge(View::forge('m1/colorCoordinator'));
+
+
+
     }
 
-	
+	public function get_colorcordinator() {
+		$this->template->title = 'Color Coordinator';
+		$this->template->content =  Response::forge(View::forge('m1/colorCoordinator'));
+
+		$table = Input::get('table');
+		$colors = Input::get('colors');
+
+		if (isset($table) and isset($colors)) {
+			if (is_numeric($table) and (intval($table) > 0) and (intval($table) < 26) and is_numeric($colors) and (intval($colors) > 0) and (intval($colors) < 11)){
+				//good to print table
+			}else{
+				$this->template->content =  Response::forge(View::forge('m1/colorCoordinatorFail'));
+			}
+		}
+	}
 
 	
 
