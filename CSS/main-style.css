@@ -69,7 +69,9 @@ nav ul li a{
 
 /* Content Defaults */
 #content {
-    margin: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
 }
 
 /* Media Query for Responsive Design */
