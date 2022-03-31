@@ -1,5 +1,5 @@
-<h1>About Us</h1>
-            <p>We are a team of qualified individuals who can fix your pc which has a virus. Let us fix your computer.</p>
+<h1 class="centered">About Us</h1>
+            <p class="centered">We are a team of qualified individuals who can fix your pc which has a virus. Let us fix your computer.</p>
             <div id="aboutPics">
                 <div>
                 <h2>Mike</h2>

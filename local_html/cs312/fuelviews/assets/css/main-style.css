@@ -109,6 +109,11 @@ nav ul li:hover{
     border-radius: 10px;
     background-color: darkgray;
 }
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 
 /* Content Defaults */
 #content {

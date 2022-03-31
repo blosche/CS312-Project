@@ -1,4 +1,4 @@
     <!-- This is where content should be loaded -->
-    <h1>Let us fix you computer.</h1>
-            <p>Your computer has a virus and needs to be fixed. Allow us to do this.</p>
-            <p>A computer is a digital electronic machine that can be programmed to carry out sequences of arithmetic or logical operations (computation) automatically. Modern computers can perform generic sets of operations known as programs. These programs enable computers to perform a wide range of tasks. A computer system is a "complete" computer that includes the hardware, operating system (main software), and peripheral equipment needed and used for "full" operation. This term may also refer to a group of computers that are linked and function together, such as a computer network or computer cluster.</p>
+    <h1 class="centered">Let us fix you computer.</h1>
+    <p class="centered">Your computer has a virus and needs to be fixed. Allow us to do this.</p>
+    <p class="centered">A computer is a digital electronic machine that can be programmed to carry out sequences of arithmetic or logical operations (computation) automatically. Modern computers can perform generic sets of operations known as programs. These programs enable computers to perform a wide range of tasks. A computer system is a "complete" computer that includes the hardware, operating system (main software), and peripheral equipment needed and used for "full" operation. This term may also refer to a group of computers that are linked and function together, such as a computer network or computer cluster.</p>
